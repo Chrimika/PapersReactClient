@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PapersReactClient/static/css/main.4bf48b39.css",
+    "main.js": "/PapersReactClient/static/js/main.e29e77a6.js",
+    "static/media/lll.jpg": "/PapersReactClient/static/media/lll.26ac136aa8466ae1d154.jpg",
+    "static/media/header.jpg": "/PapersReactClient/static/media/header.b8b5549adde2884949fb.jpg",
+    "static/media/logo.jpg": "/PapersReactClient/static/media/logo.d5a89c0e8998d50c7a85.jpg",
+    "index.html": "/PapersReactClient/index.html",
+    "main.4bf48b39.css.map": "/PapersReactClient/static/css/main.4bf48b39.css.map",
+    "main.e29e77a6.js.map": "/PapersReactClient/static/js/main.e29e77a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bf48b39.css",
+    "static/js/main.e29e77a6.js"
+  ]
+}
