@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  position: relative;
+  flex: 1; /* Ajustez la flexibilité pour que l'en-tête prenne l'espace nécessaire */
+  width: 100%;
+  overflow: hidden;
+}
+
+.header-image {
+  width: 100%;
+  height: auto; /* Permet à l'image de garder ses proportions */
+  object-fit: contain; /* L'image s'affiche entièrement sans être coupée */
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.5) 50%, 
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  z-index: 1; /* Positionne la couche de dégradé au-dessus de l'image */
+}
+
+.header-content {
+  position: absolute;
+  top: 20px; /* Ajuster la position verticale */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2; /* Assure que le contenu soit au-dessus de la couche de dégradé */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-container {
+  margin-bottom: 20px; /* Ajout d'un espacement sous le logo */
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.welcome-text {
+  margin-top: 10px; /* Espacement au-dessus du texte */
+}
+
+.welcome-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
+.welcome-subtitle {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+}
+
+.button-container {
+  flex: 0.5;
+  display: flex;
+  justify-content: center; /* Centrer le bouton */
+  align-items: center;
+  width: 100%; /* Prendre toute la largeur */
+  margin-top: 20px; /* Espacement vers le bas */
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 10px 20px; /* Ajuster le padding pour une meilleure apparence */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.google-button:hover {
+  background-color: #e0e0e0;
+}
+
+.google-icon {
+  font-size: 20px; /* Ajustez la taille de l'icône */
+  margin-right: 10px; /* Espacement entre l'icône et le texte */
+}
